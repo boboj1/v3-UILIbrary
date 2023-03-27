@@ -299,6 +299,7 @@ onUnmounted(() => {
     user-select: none;
     .preview-img {
       max-width: 70%;
+      min-width: 400px;
       cursor: crosshair;
     }
   }
