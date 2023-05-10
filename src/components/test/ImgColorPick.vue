@@ -252,15 +252,6 @@ const handleImgClick = () => {
   emit('close')
 }
 
-/**
- * 屏幕尺寸拖动导致图片大小发生变化，重新获取像素点信息
- */
-// const handleResize = () => {
-//   if (imgInit.value) {
-//     handleImgLoad()
-//   }
-// }
-
 onMounted(() => {
   window.addEventListener('mousemove', handleMouseMove)
 })
